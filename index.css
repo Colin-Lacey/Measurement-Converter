@@ -1,4 +1,62 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.top-display {
+  background-image: linear-gradient(to bottom right, #585dfe, #fb3796);
+  width: 100%;
+  height: 50%;
+  margin: 0;
+}
+
+.bottom-display {
+  width: 100%;
+  height: 50%;
+  background-color: #181a1b;
+  margin: 0;
+  padding: 0;
+}
+
+.measurements {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 25%;
+  background-color: #181a1b;
+}
+
+.bottom-label {
+  background-color: #181a1b;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.conversion {
+  color: white;
+}
+
+.index-number {
+  color: white;
+  top: 35%;
+  position: relative;
+  font-size: 90;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+.top-label {
+  top: 30%;
+  position: relative;
+  margin: 0;
+  color: white;
 }
